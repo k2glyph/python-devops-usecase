@@ -11,3 +11,8 @@
 - EC2 Automation: Start and stop EC2 instances using Python scripts.
 - CI/CD Integration: Integrate a Python script into your CI/CD pipeline (e.g., Jenkins, GitLab, CircleCI).
 - S3 Automation: Write a script that uploads files to an S3 bucket.
+
+## Task for Day 4
+- Docker Automation: Write scripts to list running Docker containers and start new ones.
+- Kubernetes Automation: Write scripts to list pods and create a new pod.
+- Error Handling & Logging: Enhance your existing scripts with error handling and logging.
