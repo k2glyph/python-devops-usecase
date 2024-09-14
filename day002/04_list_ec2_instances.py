@@ -1,7 +1,7 @@
 import boto3
 
 # create session
-session=boto3.Session(profile_name='ninjacart_snd', region_name='ap-south-1')
+session=boto3.Session(profile_name='profile_name', region_name='ap-south-1')
 
 # Create an EC2 client
 
