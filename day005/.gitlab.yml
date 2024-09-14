@@ -1,0 +1,16 @@
+stages:
+  - terraform
+  - cloudformation
+
+deploy_terraform:
+  stage: terraform
+  image: hashicorp/terraform:latest
+  script:
+    - terraform init
+    - terraform apply -auto-approve
+
+deploy_cloudformation:
+  stage: cloudformation
+  image: amazon/aws-cli
+  script:
+    - aws cloudformation create-stack --stack-name your-stack-name --template-url https://s3.amazonaws.com/path/to/your-template.yaml

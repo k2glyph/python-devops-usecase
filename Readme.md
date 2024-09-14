@@ -16,3 +16,8 @@
 - Docker Automation: Write scripts to list running Docker containers and start new ones.
 - Kubernetes Automation: Write scripts to list pods and create a new pod.
 - Error Handling & Logging: Enhance your existing scripts with error handling and logging.
+
+## Task for Day 5
+- Terraform Automation: Write a Python script to automate Terraform resource provisioning.
+- CloudFormation Automation: Write a Python script to manage (create, update, delete) CloudFormation stacks.
+- CI/CD Integration: Integrate Terraform and CloudFormation into your CI/CD pipeline.
