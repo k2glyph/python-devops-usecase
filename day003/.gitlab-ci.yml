@@ -1,0 +1,16 @@
+stages:
+  - test
+  - deploy
+
+test_python_script:
+  stage: test
+  image: python3.8
+  script:
+  - pip install -r requirements.txt
+  - python 001_start_ec2_instance.py
+
+deploy_to_cloud:
+  stage: deploy
+  script:
+    - echo "Deployment steps go here"
+    
